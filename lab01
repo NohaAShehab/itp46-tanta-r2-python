@@ -1,0 +1,36 @@
+
+1- Install python interpreter on your machine.
+
+2- Write a program that counts up the number of vowels
+"aeiou" contained in the string.
+example noha  ---> 2
+
+
+3-Write a program that prints the number of times the string 'iti'
+occurs in anystring. (ask the user to enter a string)
+
+
+
+4-Write a program that remove all vowels from the input word and
+generate a brief version of it. (ask the user to enter a word)
+noha  ===> nh
+
+
+5-Write a program that prints the locations of "i" character in any
+string you added. (ask the user to enter a word)
+
+
+
+6- Write a program that build a Mario pyramid like below:
+4
+
+    *
+   **
+  ***
+ ****
+
+
+
+
+
+
