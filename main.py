@@ -8,3 +8,7 @@ mys = {"iti", "iti", 323, 3123.32, "iti", "ali", 'django',
 
 print(mys)
 
+
+
+msg = "We love {test__}"
+print(msg.format(test__='python'))
