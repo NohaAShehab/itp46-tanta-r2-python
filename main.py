@@ -12,3 +12,18 @@ print(mys)
 
 msg = "We love {test__}"
 print(msg.format(test__='python'))
+
+"""
+       abdulrahmanampqr
+       abdu
+       lr
+       ahm
+       an
+       ampqr
+       
+       ['kiwi', 'apple', 'orange']
+       ----
+       k---
+       k---
+       
+"""
