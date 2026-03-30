@@ -89,16 +89,38 @@ def outer_function3():
 
 
 
-def abc():
+# def abc():
+#
+#     print("--- hello")
+#     def test():
+#         nonlocal  username
+#         username = 'updated'
+#         print(username)
+#     test()
+#     print(username)
+# abc()  #syntax error
 
-    print("--- hello")
-    def test():
-        nonlocal  username
-        username = 'updated'
-        print(username)
-    test()
-    print(username)
-abc()
+###############################################
+
+def test_function():
+    print("hello from test function")
+    def update_track():
+        global track  # if global variable doesn't exists, will create. it
+        track = input('Please enter track name: ')
+        print(f"track = {track}")
+
+    update_track()
+
+test_function()
+print(track)
+
+
+
+
+
+
+
+
 
 
 
