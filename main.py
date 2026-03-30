@@ -1,3 +1,22 @@
+def div_nums():
+    try:
+        num1 = int(input("Enter a number: "))
+        num2 = int(input("Enter a number: "))
+        res = num1 / num2
+    except Exception as e:
+        print("---- error ----")
+        print(e)
+        return  math.nan
+    else:
+        print("----success---")
+        print(f"num1 = {num1}, num2 = {num2}, res = {res}")
+        return res
+    finally:
+        # finally execution preceed return
+        print("-----thank you for using this function")
+    print("------**************************")
+
+
 # This is a sample Python script.
 
 # Press Ctrl+F5 to execute it or replace it with your code.
