@@ -23,3 +23,7 @@ print(isinstance(emp, object))
 
 
 from abc import ABC, abstractmethod
+
+from typing import  overload
+
+from functools import singledispatchmethod  # overloading
